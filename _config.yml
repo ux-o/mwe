@@ -1,0 +1,11 @@
+
+title: "GitHub Pages Jekyll Lab"
+description: "Learning and documenting GitHub Pages with Jekyll"
+url: "https://ux-o.github.io"
+baseurl: "/mwe"
+
+theme: minima
+
+markdown: kramdown
+
+permalink: /:categories/:year/:month/:day/:title/
