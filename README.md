@@ -1,2 +1,2 @@
 # mwe
-Jekyll + GitHub Pages MWE
+Jekyll + GitHub Pages Minimal Work Environment (MWE)
