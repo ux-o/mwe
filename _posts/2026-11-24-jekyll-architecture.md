@@ -2,6 +2,7 @@
 
 这张图展示了你仓库里的静态文件，是如何经过 GitHub Actions 里的 Jekyll 引擎，最终变成网站 HTML 的。
 
+{% raw %}
 ```mermaid
 graph TD
     subgraph "Repo: ux-o/mwe (Source)"
@@ -22,4 +23,5 @@ graph TD
         J -->|Generates HTML/CSS| S(_site/)
         S -->|Publish| U["https://ux-o.github.io/mwe/"]
     end
-```    
+```
+{% endraw %}
